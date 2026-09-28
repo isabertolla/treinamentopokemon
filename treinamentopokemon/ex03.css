@@ -1,0 +1,33 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: 890px;
+}
+.eevee{
+    padding:16px;
+    border: 2px dashed rgb(219, 60, 39)
+}
+.vulpix{
+    padding:16px;
+    border:2px dashed rgb(0, 46, 58) 
+}
+.jigglypuff{
+    padding:16px;
+    border:2px dashed rgb(172, 62, 166) 
+}
+.eevee:hover{
+    background-color: rgb(236, 171, 85);
+    zoom: 1.25
+}
+.vulpix:hover{
+    background-color: rgb(125, 236, 227);
+    zoom: 1.25
+}
+.jigglypuff:hover{
+     background-color: rgb(243, 184, 241);
+     zoom: 1.25
+}
